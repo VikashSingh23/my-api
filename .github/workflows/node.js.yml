@@ -33,7 +33,7 @@ jobs:
 
   Prod:
     needs: Test
-    runs-on: ["self-hosted" , "Prod"]
+    runs-on: ["self-hosted" , "Prod"]    
     environment:
       name: Production
       
