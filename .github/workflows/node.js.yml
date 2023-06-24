@@ -11,7 +11,7 @@ on:
 jobs:
   Test:
 
-    runs-on: ["self-hosted" , "Test"]
+    runs-on: ubuntu-latest
     environment:
       name: Development
     strategy:
