@@ -10,7 +10,7 @@ on:
 jobs:
   Test:
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment:
       name: Development
     strategy:
@@ -32,7 +32,7 @@ jobs:
   Prod:
     needs: Test
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment:
       name: Development
     strategy:
